@@ -18,7 +18,7 @@ function Ad({ item }) {
         ))}
       </ImageList>
 
-      <Container sx={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Container sx={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '16px' }}>
         <Typography sx={{
           maxWidth: '80%',
           textOverflow: 'ellipsis',
