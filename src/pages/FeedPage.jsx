@@ -1,8 +1,13 @@
-import { Button } from '@mui/material';
+import { Card, CardContent, CardHeader } from '@mui/material';
 
 function FeedPage() {
     return (
-        <Button>Hello feed</Button>
+        <Card>
+            <CardHeader> Header</CardHeader>
+            <CardContent>
+                Content
+            </CardContent>
+        </Card>
     )
 }
 
