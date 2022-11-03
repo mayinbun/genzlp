@@ -65,6 +65,17 @@
             "mediaUrl": "/assets/item6.jpg",
             "type": "C2C",
             "website": null
+        },
+        {
+            "id": 7,
+            "title": "Luxury Magnetic Wireless Charging Phone Case For iPhone 14, 13, 12 & 11",
+            "price": 5.00,
+            "seller": "Yoachey",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.6,
+            "mediaUrl": "/assets/item7.mp4",
+            "type": "C2C",
+            "website": null
         }
     ]
 }
