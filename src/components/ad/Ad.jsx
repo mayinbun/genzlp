@@ -1,11 +1,22 @@
 import { Avatar, Container, ImageList, ImageListItem, Typography } from '@mui/material';
+import StarIcon from '@mui/icons-material/Star';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { useState } from 'react';
 
 function Ad({ item }) {
+
+  const [count, setCount] = useState(0);
+
   return (
     <Container disableGutters sx={{ background: '#fff', marginBottom: '16px' }}>
       <Container sx={{ display: 'flex', alignItems: 'center', paddingTop: '16px' }}>
         <Avatar sx={{ width: 24, height: 24 }} alt={item.seller}></Avatar>
         <Typography sx={{ marginLeft: '8px' }}>{item.seller}</Typography>
+        <div className='rating'><StarIcon className='ratingIcon'/><span>{item.rating} / 5.0</span></div>
+        <div className='favorite'>
+          <FavoriteBorderIcon onClick={()=>setCount(count + 1)} className='favoriteIcon'/>
+          <div className='favoriteCounter'>{count}</div>
+        </div>
       </Container>
 
       <ImageList key={item.id} sx={{
