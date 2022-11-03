@@ -1,13 +1,16 @@
-import { Card, CardContent, CardHeader } from '@mui/material';
+import { Card, CardContent, CardHeader, Container } from '@mui/material';
 
 function FeedPage() {
     return (
-        <Card>
-            <CardHeader> Header</CardHeader>
-            <CardContent>
-                Content
-            </CardContent>
-        </Card>
+        <Container maxWidth={'xs'}>
+            <Card>
+                <CardHeader> Header</CardHeader>
+                <CardContent>
+                    Content
+                </CardContent>
+            </Card>
+        </Container>
+
     )
 }
 
