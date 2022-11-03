@@ -36,9 +36,19 @@
             "price": 140.00,
             "seller": "JDSports.nl",
             "rating": 4.6,
-            "mediaUrl": "/assets/item3.png",
+            "mediaUrl": "/assets/item3.jpg",
             "type": "B2C",
             "website": "https://www.jdsports.nl/product/grijs-nike-air-max-90/16484595_jdsportsnl/"
+        },
+        {
+            "id": 4,
+            "title": "Apple Airpods Pro Geseald",
+            "price": 30.00,
+            "seller": "AppleGuru",
+            "rating": 4.6,
+            "mediaUrl": "/assets/item4.jpg",
+            "type": "C2C",
+            "website": null
         }
     ]
 }
