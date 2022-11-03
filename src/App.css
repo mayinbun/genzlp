@@ -112,7 +112,7 @@
   display: flex;
   color: #2D3C4D;
   flex: 2;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .favoriteIcon {
