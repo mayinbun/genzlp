@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     <AppBar position="sticky">
-      <img className='headerImage' src="assets/Header.png" />
+      <img alt="" className='headerImage' src="assets/Header.png" />
     </AppBar>
   );
 }
