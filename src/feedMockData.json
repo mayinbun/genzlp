@@ -5,8 +5,11 @@
             "title": "Sony PlayStation 5 Disc Edition + Horizon Forbidden West",
             "price": 650.00,
             "seller": "ConsoleGamer",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": "/assets/item1.png",
+            "mediaUrl": [
+                "/assets/item1.png"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -15,18 +18,11 @@
             "title": "The North Face DIABLO JACKET - Gewatteerde jas",
             "price": 223.95,
             "seller": "Zalando.nl",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": "/assets/item2.png",
-            "type": "B2C",
-            "website": "https://www.zalando.nl/the-north-face-diablo-jacket-gewatteerde-jas-mineral-gold-black-th342f0cf-e12.html"
-        },
-        {
-            "id": 2,
-            "title": "The North Face DIABLO JACKET - Gewatteerde jas",
-            "price": 223.95,
-            "seller": "Zalando.nl",
-            "rating": 4.5,
-            "mediaUrl": "/assets/item2.jpg",
+            "mediaUrls": [
+                "/assets/item2.jpg"
+            ],
             "type": "B2C",
             "website": "https://www.zalando.nl/the-north-face-diablo-jacket-gewatteerde-jas-mineral-gold-black-th342f0cf-e12.html"
         },
@@ -35,8 +31,11 @@
             "title": "Nike Air Max 90 - Heren - 45",
             "price": 140.00,
             "seller": "JDSports.nl",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item3.jpg",
+            "mediaUrls": [
+                "/assets/item3.jpg"
+            ],
             "type": "B2C",
             "website": "https://www.jdsports.nl/product/grijs-nike-air-max-90/16484595_jdsportsnl/"
         },
@@ -45,8 +44,11 @@
             "title": "Apple Airpods Pro Geseald",
             "price": 30.00,
             "seller": "AppleGuru",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item4.jpg",
+            "mediaUrls": [
+                "/assets/item4.jpg"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -55,10 +57,57 @@
             "title": "iPhone 11 Pro Max - 64GB - Spacegrijs",
             "price": 500.00,
             "seller": "Frodo",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item5.jpg",
+            "mediaUrls": [
+                "/assets/item5.jpg"
+            ],
             "type": "C2C",
             "website": null
+        },
+        {
+            "id": 6,
+            "title": "Vivienne Westwood punk dress",
+            "price": 500.00,
+            "seller": "AC",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.3,
+            "mediaUrls": [
+                "/assets/item6.jpg"
+            ],
+            "type": "C2C",
+            "website": null
+        },
+        {
+            "id": 7,
+            "title": "Luxury Magnetic Wireless Charging Phone Case For iPhone 14, 13, 12 & 11",
+            "price": 5.00,
+            "seller": "Yoachey",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.6,
+            "mediaUrls": [
+                "/assets/item7_1.mp4",
+                "/assets/item7_2.jpg",
+                "/assets/item7_3.jpg"
+            ],
+            "type": "C2C",
+            "website": null
+        },
+        {
+            "id": 8,
+            "title": "15% korting op alle vintage kleding || Nike, Adidas, Levi's+",
+            "price": 70.00,
+            "seller": "devintageclub.nl",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.6,
+            "mediaUrls": [
+                "/assets/item8_1.jpg",
+                "/assets/item8_2.jpg",
+                "/assets/item8_3.jpg",
+                "/assets/item8_4.jpg"
+            ],
+            "type": "B2C",
+            "website": "https://www.devintageclub.nl/"
         }
     ]
 }
