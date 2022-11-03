@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Sony PlayStation 5 Disc Edition + Horizon Forbidden West",
+            "price": 650.00,
+            "seller": "ConsoleGamer",
+            "rating": 4.8,
+            "mediaUrl": "/assets/item1.png"
+        }
+    ]
+}
