@@ -6,7 +6,9 @@
             "price": 650.00,
             "seller": "ConsoleGamer",
             "rating": 4.8,
-            "mediaUrl": "/assets/item1.png"
+            "mediaUrl": "/assets/item1.png",
+            "type": "C2C",
+            "website": null
         }
     ]
 }
