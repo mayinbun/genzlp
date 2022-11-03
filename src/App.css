@@ -15,18 +15,38 @@
 
 .category {
   font-size: 1rem !important;
-  margin-right: 6px;
+  margin-right: 6px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.skip {
+  justify-content: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skipButton {
+  margin-right: 12px !important;
+}
+
+.header1 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.header2 {
+  font-size: 16px;
+  color: #4B6179;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.shopping {
+  padding: 0 20px;
+  position: sticky;
+  bottom: 10px;
+}
+
+.shoppingButton {
+  width: 100%;
 }

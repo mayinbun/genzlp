@@ -37,22 +37,29 @@ const categoryList = [
 const Categories = () => {
     return (
         <>
-        <Link
-            component="button"
-            variant="body2"
-            onClick={() => {
-                console.info("skip");
-            }}
-        >
+        <Stack className="skip" direction="row">
+            <Link
+                component="button"
+                variant="body1"
+                onClick={() => {
+                    console.info("skip");
+                }}
+                className="skipButton"
+            >
             Skip
         </Link>
-        <Stack className="categories" direction="row">
+        </Stack>
+
+        <div className="header1">What are your interests?</div>
+        <div className="header2">You will get items based on this selection. Don’t worry, you can always change this in your feed</div>
+        
+        <Stack className="categories" direction="row" >
             {categoryList.map(category => <Chip key={category} onClick={() => {
                 console.info("category click");
             }} className="category" label={category} variant="outlined"/>)}
         </Stack>
-        <Stack direction="row" spacing={1}>
-            <Button onClick={() => {
+        <Stack className="shopping" direction="row" spacing={1}>
+            <Button className="shoppingButton" onClick={() => {
                 console.info("start shopping");
             }} variant="contained">Start shopping</Button>
         </Stack>
