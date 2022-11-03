@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import React, { useState } from "react";
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
@@ -45,10 +46,11 @@ const Categories = ({showFeed, setShowFeed}) => {
     }
     const toggleFeed = () => {
         setShowFeed(true);
+        window.scrollTo(0,0);
     }
     if (showFeed) return null;
     return (
-        <>
+        <Container disableGutters sx={{background: 'white'}}>
         <Stack className="skip" direction="row">
             <Link
                 component="button"
@@ -68,7 +70,7 @@ const Categories = ({showFeed, setShowFeed}) => {
         <Stack className="shopping" direction="row" spacing={1}>
             <Button className="shoppingButton" onClick={toggleFeed} variant="contained">Start shopping</Button>
         </Stack>
-        </>
+        </Container>
     )
 }
 
