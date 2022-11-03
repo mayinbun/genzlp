@@ -7,7 +7,7 @@
             "seller": "ConsoleGamer",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": [
+            "mediaUrls": [
                 "/assets/item1.png"
             ],
             "type": "C2C",
