@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function Ad({ item }) {
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(Math.random() * 101);
 
   return (
     <Container disableGutters sx={{ background: '#fff', marginBottom: '16px' }}>
