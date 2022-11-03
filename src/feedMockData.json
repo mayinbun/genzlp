@@ -7,7 +7,9 @@
             "seller": "ConsoleGamer",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": "/assets/item1.png",
+            "mediaUrl": [
+                "/assets/item1.png"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -18,7 +20,9 @@
             "seller": "Zalando.nl",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": "/assets/item2.png",
+            "mediaUrls": [
+                "/assets/item2.jpg"
+            ],
             "type": "B2C",
             "website": "https://www.zalando.nl/the-north-face-diablo-jacket-gewatteerde-jas-mineral-gold-black-th342f0cf-e12.html"
         },
@@ -29,7 +33,9 @@
             "seller": "JDSports.nl",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item3.jpg",
+            "mediaUrls": [
+                "/assets/item3.jpg"
+            ],
             "type": "B2C",
             "website": "https://www.jdsports.nl/product/grijs-nike-air-max-90/16484595_jdsportsnl/"
         },
@@ -40,7 +46,9 @@
             "seller": "AppleGuru",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item4.jpg",
+            "mediaUrls": [
+                "/assets/item4.jpg"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -51,7 +59,9 @@
             "seller": "Frodo",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item5.jpg",
+            "mediaUrls": [
+                "/assets/item5.jpg"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -62,7 +72,9 @@
             "seller": "AC",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.3,
-            "mediaUrl": "/assets/item6.jpg",
+            "mediaUrls": [
+                "/assets/item6.jpg"
+            ],
             "type": "C2C",
             "website": null
         },
@@ -73,9 +85,29 @@
             "seller": "Yoachey",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
-            "mediaUrl": "/assets/item7.mp4",
+            "mediaUrls": [
+                "/assets/item7_1.mp4",
+                "/assets/item7_2.jpg",
+                "/assets/item7_3.jpg"
+            ],
             "type": "C2C",
             "website": null
+        },
+        {
+            "id": 8,
+            "title": "15% korting op alle vintage kleding || Nike, Adidas, Levi's+",
+            "price": 70.00,
+            "seller": "devintageclub.nl",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.6,
+            "mediaUrls": [
+                "/assets/item8_1.jpg",
+                "/assets/item8_2.jpg",
+                "/assets/item8_3.jpg",
+                "/assets/item8_4.jpg"
+            ],
+            "type": "B2C",
+            "website": "https://www.devintageclub.nl/"
         }
     ]
 }
