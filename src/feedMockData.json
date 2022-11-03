@@ -59,6 +59,16 @@
             "mediaUrl": "/assets/item5.jpg",
             "type": "C2C",
             "website": null
+        },
+        {
+            "id": 6,
+            "title": "Vivienne Westwood punk dress",
+            "price": 500.00,
+            "seller": "AC",
+            "rating": 4.3,
+            "mediaUrl": "/assets/item6.jpg",
+            "type": "C2C",
+            "website": null
         }
     ]
 }
