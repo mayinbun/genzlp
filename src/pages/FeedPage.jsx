@@ -4,7 +4,7 @@ import data from '../feedMockData.json';
 
 function FeedPage() {
   return (
-    <Container>
+    <Container sx={{ background: '#F7F7F6' }}>
       {data.items.map((item) => <Ad key={item.id} item={item} />)}
     </Container>
   );
