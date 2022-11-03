@@ -5,13 +5,15 @@ import data from '../feedMockData.json';
 
 function FeedPage() {
   const c2cAds = data.items.filter((item) => item.type === 'C2C');
-  const b2cAds = data.items
-    .filter((item) => item.type === 'B2C')
+  const b2cAds = data.items.filter((item) => item.type === 'B2C');
 
   return (
     <Container sx={{ background: '#F7F7F6' }}>
       {c2cAds.map((item, i) => {
-        return i === 2 ? <B2cads key={i} items={b2cAds} /> : <Ad key={item.id} item={item} />
+        return i === 2 ? <>
+          <Ad item={item} />
+          <B2cads items={b2cAds} />
+        </> : <Ad item={item} />;
       })}
     </Container>
   );
