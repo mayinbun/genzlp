@@ -7,7 +7,7 @@
             "seller": "ConsoleGamer",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
-            "mediaUrl": [
+            "mediaUrls": [
                 "/assets/item1.png"
             ],
             "type": "C2C",
@@ -108,6 +108,22 @@
             ],
             "type": "B2C",
             "website": "https://www.devintageclub.nl/"
+        },
+        {
+            "id": 9,
+            "title": "Sony WH-1000XM5 Wireless",
+            "price": 370.00,
+            "seller": "electronics.sony.com",
+            "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
+            "rating": 4.2,
+            "mediaUrls": [
+                "/assets/item9_1.mp4",
+                "/assets/item9_2.png",
+                "/assets/item9_3.png",
+                "/assets/item9_4.png"
+            ],
+            "type": "B2C",
+            "website": "https://electronics.sony.com/audio/headphones/all-headphones/p/wh1000xm5-b"
         }
     ]
 }
