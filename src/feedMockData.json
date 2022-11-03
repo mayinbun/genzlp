@@ -49,6 +49,16 @@
             "mediaUrl": "/assets/item4.jpg",
             "type": "C2C",
             "website": null
+        },
+        {
+            "id": 5,
+            "title": "iPhone 11 Pro Max - 64GB - Spacegrijs",
+            "price": 500.00,
+            "seller": "Frodo",
+            "rating": 4.6,
+            "mediaUrl": "/assets/item5.jpg",
+            "type": "C2C",
+            "website": null
         }
     ]
 }
