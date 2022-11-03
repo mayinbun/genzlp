@@ -10,7 +10,8 @@ const App = () => {
     <div className="App">
       <Nav />
       <Categories setShowFeed={setShowFeed}/>
-      <FeedPage showFeed={showFeed}/>
+
+      {showFeed && <FeedPage/>}
     </div>
   );
 };
