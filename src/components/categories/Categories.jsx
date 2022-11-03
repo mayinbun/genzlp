@@ -34,8 +34,7 @@ const categoryList = [
     "Diversen"
 ];
 
-const Categories = ({setShowFeed}) => {
-    const [hidden, hideCategories] = useState(false);
+const Categories = ({showFeed, setShowFeed}) => {
     const [selected, toggleSelect] = useState(new Set());
     const toggleSelection = (category) => {
         if (selected.has(category)) {
@@ -45,10 +44,9 @@ const Categories = ({setShowFeed}) => {
         }
     }
     const toggleFeed = () => {
-        hideCategories(true);
         setShowFeed(true);
     }
-    if (hidden) return null;
+    if (showFeed) return null;
     return (
         <>
         <Stack className="skip" direction="row">
@@ -65,7 +63,7 @@ const Categories = ({setShowFeed}) => {
         <div className="header1">What are your interests?</div>
         <div className="header2">You will get items based on this selection. Don’t worry, you can always change this in your feed</div>
         <Stack className="categories" direction="row" >
-            {categoryList.map(category => <Chip key={category} onClick={()=>toggleSelection(category)} className="category" label={category} variant={selected.has(category) ? "filled" : "outlined"}/>)}
+            {categoryList.map(category => <Chip key={category} onClick={()=>toggleSelection(category)} className={`category ${selected.has(category) ? "selected" : ""}`} label={category} variant="outlined"/>)}
         </Stack>
         <Stack className="shopping" direction="row" spacing={1}>
             <Button className="shoppingButton" onClick={toggleFeed} variant="contained">Start shopping</Button>

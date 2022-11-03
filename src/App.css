@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.AppBar {
+  background-color: #ffffff !important;
+}
+
+.navigationPills {
+  margin: 10px;
+}
+
+.navigationPill {
+  font-size: 1rem !important;
+}
+
+.navigationPill.selected,
+.category.selected {
+  color: #116DB4 !important;
+  border-color: #116DB4 !important;
+}
+
 .categories {
   min-height: 100vh;
   display: flex;

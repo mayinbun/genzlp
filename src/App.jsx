@@ -8,8 +8,8 @@ const App = () => {
   const [showFeed, setShowFeed] = useState(false);
   return (
     <div className="App">
-      <Nav />
-      <Categories setShowFeed={setShowFeed}/>
+      <Nav showFeed={showFeed} setShowFeed={setShowFeed}/>
+      <Categories showFeed={showFeed} setShowFeed={setShowFeed}/>
       <FeedPage showFeed={showFeed}/>
     </div>
   );
