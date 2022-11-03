@@ -34,8 +34,8 @@ const categoryList = [
     "Diversen"
 ];
 
-const Categories = () => {
-    const [hidden, hide] = useState(false);
+const Categories = ({setShowFeed}) => {
+    const [hidden, hideCategories] = useState(false);
     const [selected, toggleSelect] = useState(new Set());
     const toggleSelection = (category) => {
         if (selected.has(category)) {
@@ -44,6 +44,10 @@ const Categories = () => {
             toggleSelect(prev => new Set([...prev, category]));
         }
     }
+    const toggleFeed = () => {
+        hideCategories(true);
+        setShowFeed(true);
+    }
     if (hidden) return null;
     return (
         <>
@@ -51,7 +55,7 @@ const Categories = () => {
             <Link
                 component="button"
                 variant="body1"
-                onClick={hide}
+                onClick={toggleFeed}
                 className="skipButton"
             >
             Skip
@@ -64,7 +68,7 @@ const Categories = () => {
             {categoryList.map(category => <Chip key={category} onClick={()=>toggleSelection(category)} className="category" label={category} variant={selected.has(category) ? "filled" : "outlined"}/>)}
         </Stack>
         <Stack className="shopping" direction="row" spacing={1}>
-            <Button className="shoppingButton" onClick={hide} variant="contained">Start shopping</Button>
+            <Button className="shoppingButton" onClick={toggleFeed} variant="contained">Start shopping</Button>
         </Stack>
         </>
     )
