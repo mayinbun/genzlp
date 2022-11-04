@@ -47,7 +47,9 @@
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
             "mediaUrls": [
-                "/assets/item4.jpg"
+                "/assets/item4_1.jpg",
+                "/assets/item4_2.jpg",
+                "/assets/item4_3.jpg"
             ],
             "type": "C2C",
             "website": null
@@ -60,7 +62,9 @@
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
             "mediaUrls": [
-                "/assets/item5.jpg"
+                "/assets/item5_1.jpg",  
+                "/assets/item5_2.jpg",
+                "/assets/item5_3.jpg"
             ],
             "type": "C2C",
             "website": null
@@ -68,12 +72,14 @@
         {
             "id": 6,
             "title": "Vivienne Westwood punk dress",
-            "price": "€500.00",
+            "price": "€110.00",
             "seller": "AC",
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.3,
             "mediaUrls": [
-                "/assets/item6.jpg"
+                "/assets/item6_1.jpg",   
+                "/assets/item6_2.jpg",   
+                "/assets/item6_3.jpg"  
             ],
             "type": "C2C",
             "website": null
