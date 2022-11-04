@@ -8,7 +8,9 @@
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
             "mediaUrls": [
-                "/assets/item1.png"
+                "/assets/item1.png",
+                "/assets/item1_1.png",
+                "/assets/item1_2.png"
             ],
             "type": "C2C",
             "website": null
@@ -21,7 +23,9 @@
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.8,
             "mediaUrls": [
-                "/assets/item2.jpg"
+                "/assets/item2.jpg",
+                "/assets/item2_1.jpeg",
+                "/assets/item2_2.jpeg"
             ],
             "type": "B2C",
             "website": "https://www.zalando.nl/the-north-face-diablo-jacket-gewatteerde-jas-mineral-gold-black-th342f0cf-e12.html"
@@ -34,7 +38,9 @@
             "sellerProfileImageUrl": "/assets/sellerAvatar.jpg",
             "rating": 4.6,
             "mediaUrls": [
-                "/assets/item3.jpg"
+                "/assets/item3.jpg",
+                "/assets/item3_1.jpeg",
+                "/assets/item3_2.jpeg"
             ],
             "type": "B2C",
             "website": "https://www.jdsports.nl/product/grijs-nike-air-max-90/16484595_jdsportsnl/"
