@@ -1,2 +1,2 @@
 # genzlp
-Gen Z Landingpage
+Gen Z Landingpage for Marktplaats Hackathon 2022
